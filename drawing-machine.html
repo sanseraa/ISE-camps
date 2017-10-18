@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>ISE Summer Camp</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="https://fonts.iu.edu/style.css?family=BentonSans:regular,bold|BentonSansCond:regular|GeorgiaPro:regular" media="screen" rel="stylesheet" type="text/css"/>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/slicknav.css" />
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="ico" href="images/favicon.ico">
+
+    <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+  <script src="js/jquery.slicknav.min.js"></script>
+  
+  <script>
+    $(document).ready(function() {
+        $( '.dropdown' ).hover(
+            function(){
+                $(this).children('.sub-menu').slideDown(200);
+            },
+            function(){
+                $(this).children('.sub-menu').slideUp(200);
+            }
+        );
+    }); // end ready
+  </script>
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="section banner">
+    <div class="logo-section">
+      <a href="index.html"><img src="images/ise-logo.png"></a>
+    </div>
+    <div class="cl-effect-3" id="menu">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="camps.html">Camps</a>
+            </li>
+          <li><a href="about-ise.html">About ISE</a></li>
+          <li><a href="locations.html">Locations</a></li>
+               <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+   <div class="container">
+    <div class="row interior-page">
+      <div class="twelve columns">
+        <img class="u-max-full-width" alt="Drawing Machine" src="images/drawing-machine.jpg">
+        <h2>Drawing Machine  &mdash; Fabricating a Fabrication Machine</h2>
+        <p><b>Camp Instructor(s):</b> Christian McKay and Alex Shroyer, ISE, SOIC, IUB</p>
+          <p><b>Ages:</b> 16 and up (must turn 16 by 12.31. 2016)</p>
+        <p><b>Skill Level:</b> Intermediate - Advanced</p>
+        <p><b>Ratio Guarantee:</b> 6 students per instructor, max 12 students per camp week</p>
+        <p><b>Ages:</b> 13 and up</p>
+        <p><b>Prerequisite:</b> None</p>
+        <p><b>Software:</b> Arduino/C++ on Arduino Uno USB Development Board  </p>
+         <p><b>Location:</b> Smith Research Center, Rm 120 see <a href="/locations.html">location</a>.</p>
+         <p><b>Time:</b> Monday - Friday, 9am - 4pm</p>
+        <p><b>Cost:</b> $375</p>
+        <h3>Course Description:</h3>
+        <p>One of the mysteries of digital fabrication lies in the machines themselves. From 3D printers and CNC mills to laser cutters they take our designs and print objects in three dimensions, cut forms out of blocks of aluminum, or etch images onto plastic all through a process that can seem somehow magical. </p>
+		<p>In this camp you will demystify CNC fabrication machines, and come to understand the magic that makes them work by constructing and programming one of your own. The CNC machine that you build and program by the end of this camp will be able to transfer digital images, or text onto a drawing surface. You will learn how to design in a computer aided design (CAD) program, how to power and program stepper motors, and how to operate CNC machines to fabricate the components you have designed for assembly and use.</p>
+        <p><b>What Students Take Home:</b> Students will have the complete CNC machine they build to take home.</p>
+     <!--    <a class="interior-page-btn" href="https://iu.co1.qualtrics.com/jfe/form/SV_7V3uFo9r7Fi6HAx" target="_blank">Apply for Camp</a> -->
+      <p style="color:#900; font-weight:bold;">Registration for 2017 camp is now closed.</p>
+      </div>
+    </div>
+  </div>
+  <!--  <div class="section first">
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns">
+            <h2>Basic Page</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+  </div> -->
+     <div class="section second">
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns">
+             <h3>Camps for high school students who want to make big discoveries.</h3>
+            <p>If you want to learn how to make the engineering discoveries that will shape the future, join us in our first ever Intelligent Systems Engineering Summer Camp Series.  In these camps, you will explore how to engineer small-scale, networked, and mobile technology that changes lives and the world.  Intelligent Systems Engineering is a bourgeoning field, rich with opportunity for discovery. </p>
+          </div>
+        </div>
+      </div>
+  </div>
+<!-- <footer>
+  <p>Intelligent Systems Engineering</p>
+</footer> -->
+
+  <script>
+  $(function(){
+    $('#menu').slicknav();
+  });
+</script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

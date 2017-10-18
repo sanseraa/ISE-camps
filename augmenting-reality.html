@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>ISE Summer Camp</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="https://fonts.iu.edu/style.css?family=BentonSans:regular,bold|BentonSansCond:regular|GeorgiaPro:regular" media="screen" rel="stylesheet" type="text/css"/>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/slicknav.css" />
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="ico" href="images/favicon.ico">
+
+    <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+  <script src="js/jquery.slicknav.min.js"></script>
+  
+  <script>
+    $(document).ready(function() {
+        $( '.dropdown' ).hover(
+            function(){
+                $(this).children('.sub-menu').slideDown(200);
+            },
+            function(){
+                $(this).children('.sub-menu').slideUp(200);
+            }
+        );
+    }); // end ready
+  </script>
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="section banner">
+    <div class="logo-section">
+      <a href="index.html"><img src="images/ise-logo.png"></a>
+    </div>
+    <div class="cl-effect-3" id="menu">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="camps.html">Camps</a>
+            </li>
+          <li><a href="about-ise.html">About ISE</a></li>
+          <li><a href="locations.html">Locations</a></li>
+           <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+   <div class="container">
+    <div class="row interior-page">
+      <div class="twelve columns">
+        <img class="u-max-full-width" alt="Augmenting Reality" src="images/augmenting-reality.jpg">
+        <h2>Augmenting Reality  &mdash; Design 'Pokemon Go' Like Data Visualizations</h2>
+        <p><b>Camp Instructor(s):</b> <a href="http://andreas-bueckle.com/" target="_blank">Andreas Bueckle</a>, CNS, SOIC, IUB</p>
+        <p><b>Skill Level:</b> Beginner - Advanced</p>
+        <p><b>Ratio Guarantee:</b> 8 students per instructor, max 20 students per camp week.</p>
+        <p><b>Ages:</b> 13 and up</p>
+        <p><b>Prerequisite:</b> None</p>
+        <p><b>Software:</b> Unity Game Engine and Vuforia</p>
+         <p><b>Time:</b> Monday - Friday, 9am - 4pm</p>
+        <p><b>Location:</b> Smith Research Center, Rm 120 see <a href="/locations.html">location</a>.</p>
+        <p><b>Cost:</b> $375</p>
+        <h3>Course Description:</h3>
+        <p>Design 'Pokemon Go'-like visualizations that augment the physical, real-world environment with supplemental computer-generated imagery and sound.  Spend the first two days learning Unity and Vuforia and understand how to use image targets and augmented reality (AR) markers. Then, let your favorite 3D objects appear in special places, add explanatory text or sound to recognized objects and places.  Use your phone or tablet to augment your very own reality.</p>
+        <p><b>What Students Take Home:</b> Students take the sculpture they build and all code they implemented
+        home.</p><!-- <a class="interior-page-btn" href="https://iu.co1.qualtrics.com/jfe/form/SV_7V3uFo9r7Fi6HAx" target="_blank">Apply for Camp</a> -->
+         <p style="color:#900; font-weight:bold;">Registration for 2017 camp is now closed.</p>
+      </div>
+    </div>
+  </div>
+  <!--  <div class="section first">
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns">
+            <h2>Basic Page</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+  </div> -->
+     <div class="section second">
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns">
+             <h3>Camps for high school students who want to make big discoveries.</h3>
+            <p>If you want to learn how to make the engineering discoveries that will shape the future, join us in our first ever Intelligent Systems Engineering Summer Camp Series.  In these camps, you will explore how to engineer small-scale, networked, and mobile technology that changes lives and the world.  Intelligent Systems Engineering is a bourgeoning field, rich with opportunity for discovery. </p>
+          </div>
+        </div>
+      </div>
+  </div>
+<!-- <footer>
+  <p>Intelligent Systems Engineering</p>
+</footer> -->
+
+  <script>
+  $(function(){
+    $('#menu').slicknav();
+  });
+</script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

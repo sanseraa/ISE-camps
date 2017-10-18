@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>ISE Summer Camp</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="https://fonts.iu.edu/style.css?family=BentonSans:regular,bold|BentonSansCond:regular|GeorgiaPro:regular" media="screen" rel="stylesheet" type="text/css"/>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/slicknav.css" />
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="ico" href="images/favicon.ico">
+
+    <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+  <script src="js/jquery.slicknav.min.js"></script>
+  
+  <script>
+    $(document).ready(function() {
+        $( '.dropdown' ).hover(
+            function(){
+                $(this).children('.sub-menu').slideDown(200);
+            },
+            function(){
+                $(this).children('.sub-menu').slideUp(200);
+            }
+        );
+    }); // end ready
+  </script>
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="section banner">
+    <div class="logo-section">
+      <a href="index.html"><img src="images/ise-logo.png"></a>
+    </div>
+    <div class="cl-effect-3" id="menu">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="camps.html">Camps</a>
+            </li>
+          <li><a href="about-ise.html">About ISE</a></li>
+          <li><a href="locations.html">Locations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="interior-container">
+     <div class="row interior-page location ">
+        <div class="twelve columns">
+          <h2>Camp Location</h2>
+    	</div>
+    	<div class="one-half column">
+    	<h3>Smith Research Center</h3>
+      <p>Room: 120</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3093.0446844087915!2d-86.50239504890023!3d39.17370487942851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886c66a7f241ba13%3A0x5ed344c7b840ce57!2sSmith+Research+Center!5e0!3m2!1sen!2sin!4v1498585925805" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    	</div>
+    </div>
+</div>
+  <!--  <div class="section first">
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns">
+            <h2>Basic Page</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+  </div> -->
+     <div class="section second">
+      <div class="interior-container">
+        <div class="row">
+          <div class="twelve columns">
+            <h3>Camps for high school students who want to make big discoveries.</h3>
+            <p>If you want to learn how to make the engineering discoveries that will shape the future, join us in our first ever Intelligent Systems Engineering Summer Camp Series.  In these camps, you will explore how to engineer small-scale, networked, and mobile technology that changes lives and the world.  Intelligent Systems Engineering is a bourgeoning field, rich with opportunity for discovery. </p>
+          </div>
+        </div>
+      </div>
+  </div>
+<!-- <footer>
+  <p>Intelligent Systems Engineering</p>
+</footer> -->
+
+  <script>
+  $(function(){
+    $('#menu').slicknav();
+  });
+</script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

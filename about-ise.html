@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>ISE Summer Camp</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="https://fonts.iu.edu/style.css?family=BentonSans:regular,bold|BentonSansCond:regular|GeorgiaPro:regular" media="screen" rel="stylesheet" type="text/css"/>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/slicknav.css" />
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="ico" href="images/favicon.ico">
+
+    <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+  <script src="js/jquery.slicknav.min.js"></script>
+  
+  <script>
+    $(document).ready(function() {
+        $( '.dropdown' ).hover(
+            function(){
+                $(this).children('.sub-menu').slideDown(200);
+            },
+            function(){
+                $(this).children('.sub-menu').slideUp(200);
+            }
+        );
+    }); // end ready
+  </script>
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="section banner">
+    <div class="logo-section">
+      <a href="index.html"><img src="images/ise-logo.png"></a>
+    </div>
+    <div class="cl-effect-3" id="menu">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="camps.html">Camps</a>
+            </li>
+          <li><a href="about-ise.html">About ISE</a></li>
+          <li><a href="locations.html">Locations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="interior-container interior-page">
+     <div class="row">
+        <div class="seven columns">
+          <h2>About Intelligent Systems Engineering</h2>
+          <p>The <a href="https://www.engineering.indiana.edu/" target="_blank">Intelligent Systems Engineering (ISE)</a> Department at School of Informatics and Computing, Indiana University, Bloomington is proud to offer an exciting set of camps during summer 2017.  High school and other students are encouraged to apply.</p>
+          <p>ISE is a brand-new program with degrees designed for what engineering is and will be, rather than what it was. Modern information technology approaches—like intelligent systems, big data, and user interface design—are part of our DNA from the start. ISE research focuses on small-scale and mobile technologies—from designing tiny devices that monitor health to realizing the promise of a hyper-networked Internet of Things.</p>
+          <p>The School of Informatics and Computing is one of the world’s largest, broadest, and most accomplished information and technology schools. Indiana University Bloomington is a top public research university with exceptional supercomputing resources and long-standing strengths in many fields, including science, technology, business, and law.</p>
+  
+          <a class="interior-page-btn" href="http://camps.engineering.indiana.edu/camps.html" alt="Engineering Camps" target="_blank">View Summer Camps</a>
+    	</div>
+      <div class="five columns">
+        <img class="photo" src="images/luddy-hall.jpg">
+        <div class="caption">
+          <p>Luddy Hall, the new home for the School of Informatics &amp; Computing at Indiana University</p>
+        </div>
+      </div>
+    </div>
+</div>
+  <!--  <div class="section first">
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns">
+            <h2>Basic Page</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+  </div> -->
+     <div class="section second">
+      <div class="interior-container">
+        <div class="row">
+          <div class="twelve columns">
+            <h3>Camps for high school students who want to make big discoveries.</h3>
+            <p>If you want to learn how to make the engineering discoveries that will shape the future, join us in our first ever Intelligent Systems Engineering Summer Camp Series.  In these camps, you will explore how to engineer small-scale, networked, and mobile technology that changes lives and the world.  Intelligent Systems Engineering is a bourgeoning field, rich with opportunity for discovery. </p>
+          </div>
+        </div>
+      </div>
+  </div>
+<!-- <footer>
+  <p>Intelligent Systems Engineering</p>
+</footer> -->
+
+  <script>
+  $(function(){
+    $('#menu').slicknav();
+  });
+</script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
